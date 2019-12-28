@@ -7,7 +7,6 @@ const app = express()
 ************************************************/
 const helmet = require('helmet')
 
-
 const xDaysInSeconds = days => days * 24 * 60 * 60
 const ninetyDaysInSeconds = xDaysInSeconds(90)
 
